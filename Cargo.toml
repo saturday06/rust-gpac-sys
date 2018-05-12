@@ -1,6 +1,6 @@
 [package]
 name = "gpac-sys"
-version = "0.9.0"
+version = "0.9.1"
 authors = ["Isamu Mogi"]
 build = "build.rs"
 description = "Bindings to GPAC"
