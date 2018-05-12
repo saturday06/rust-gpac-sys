@@ -8,6 +8,10 @@ license = "LGPL-2.1"
 readme = "README.md"
 repository = "https://github.com/saturday06/rust-gpac-sys"
 
+[features]
+# Use static library
+static = []
+
 [build-dependencies]
 bindgen = "0"
 

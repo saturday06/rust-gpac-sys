@@ -4,7 +4,11 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    println!("cargo:rustc-link-lib=gpac");
+    if cfg!(feature = "static") {
+        println!("cargo:rustc-link-lib=gpac_static");
+    } else {
+        println!("cargo:rustc-link-lib=gpac");
+    }
 
     let mut builder = bindgen::Builder::default().header("wrapper.h");
     for blacklist_type in &[
