@@ -1,4 +1,4 @@
-#include <gpac/color.h>
+// #include <gpac/color.h>
 #include <gpac/ait.h>
 #include <gpac/avparse.h>
 #include <gpac/base_coding.h>
@@ -26,8 +26,8 @@
 #include <gpac/isomedia.h>
 #include <gpac/laser.h>
 #include <gpac/list.h>
-#include <gpac/map.h>
-#include <gpac/maths.h>
+// #include <gpac/map.h>
+// #include <gpac/maths.h>
 #include <gpac/media_tools.h>
 #include <gpac/mediaobject.h>
 #include <gpac/module.h>
@@ -60,5 +60,5 @@
 #include <gpac/user.h>
 #include <gpac/utf.h>
 #include <gpac/version.h>
-#include <gpac/webvtt.h>
+// #include <gpac/webvtt.h>
 #include <gpac/xml.h>
